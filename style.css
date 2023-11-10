@@ -15,47 +15,54 @@
     align-items: center;
 }
 .img__caporala {
-    width: 80%;
+    width: 70%;
     object-fit: cover;
 }
 
 .subtitle{
     margin: 0;
     padding: 0;
+    max-width: 600px;
+    text-align: center;
 }
 .subtitle__paragrahp{
     background-color: transparent; 
     font-size: unset; 
     color: unset;
     color: #fff;
+    font-size: 2em;
 }
 
-.form {
-    max-width: 400px;
+.form__form {
+    max-width: 600px;
+    width: 500;
     margin: 0 auto;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .form__field {
     margin-bottom: 10px;
-  }
-
-  .form__label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
   }
 
   .form__input {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
+    padding: 1em 1.5em;
+    border-radius: .5em;
+    outline: none;
   }
 
+
   .form__button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3498db;
+    padding: 10px 10px;
+    width: 300px;
+    font-size: 20px;
+    background-color: #3083FF;
     color: #fff;
     border: none;
     cursor: pointer;
